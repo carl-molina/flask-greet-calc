@@ -10,7 +10,7 @@ def welcome():
 
 @app.get('/welcome/home')
 def welcome_home():
-    print('this in terminal?')
+    print('this in terminal? 1')
     return 'welcome home'
 
 @app.get('/welcome/back')
